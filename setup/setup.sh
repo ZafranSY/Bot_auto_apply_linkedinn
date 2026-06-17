@@ -1,9 +1,4 @@
 '''
-
-License:    GNU Affero General Public License
-            https://www.gnu.org/licenses/agpl-3.0.en.html
-            
-
 '''
 
 # Check if Python is installed
