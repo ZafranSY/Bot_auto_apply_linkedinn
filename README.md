@@ -2,14 +2,8 @@
 This is an web scraping bot that automates the process of job applications on LinkedIn. It searches for jobs relevant to you, answers all questions in application form, customizes your resume based on the collected job information, such as skills required, description, about company, etc. and applies to the job. Can apply 100+ jobs in less than 1 hour. 
 
 
-## 📽️ See it in Action
-[![Auto Job Applier demo video](https://img.youtube.com/vi/gMbB1fWZDHw/0.jpg)](https://youtu.be/gMbB1fWZDHw)
-Click on above image to watch the demo or use this link https://youtu.be/gMbB1fWZDHw
-
-
 ## ✨ Content
 - [Introduction](#linkedin-ai-auto-job-applier-)
-- [Demo Video](#%EF%B8%8F-see-it-in-action)
 - [Index](#-content)
 - [Install](#%EF%B8%8F-how-to-install)
 - [Configure](#-how-to-configure)
@@ -18,14 +12,10 @@ Click on above image to watch the demo or use this link https://youtu.be/gMbB1fW
 - [Disclaimer](#-disclaimer)
 - [Terms and Conditions](#%EF%B8%8F-terms-and-conditions)
 - [License](#%EF%B8%8F-license)
-- [Support and Discussions](#-community-support-and-discussions)
 
 <br>
 
 ## ⚙️ How to install
-
-[![Auto Job Applier setup tutorial video](https://github.com/user-attachments/assets/9e876187-ed3e-4fbf-bd87-4acc145880a2)](https://youtu.be/f9rdz74e1lM?si=4fRBcte0nuvr6tEH)
-Click on above image to watch the tutorial for installation and configuration or use this link https://youtu.be/f9rdz74e1lM (Recommended to watch it in 2x speed)
 
 1. [Python 3.10](https://www.python.org/) or above. Visit https://www.python.org/downloads/ to download and install Python, or for windows you could visit Microsoft Store and search for "Python". **Please make sure Python is added to Path in System Environment Variables**.
 2. Install necessary [Undetected Chromedriver](https://pypi.org/project/undetected-chromedriver/), [PyAutoGUI](https://pypi.org/project/PyAutoGUI/) and [Setuptools](https://pypi.org/project/setuptools/) packages. After Python is installed, OPEN a console/terminal or shell, Use below command that uses the [pip](https://pip.pypa.io/en/stable) command-line tool to install these 3 package.
@@ -39,8 +29,6 @@ Click on above image to watch the tutorial for installation and configuration or
   ***OR*** 
   <br> <br>
   If you are using Windows, click on `windows-setup.bat` available in the `/setup` folder, this will install the latest chromedriver automatically.
-6. If you have questions or need help setting it up or to talk in general, join the github server: https://discord.gg/fFp7uUzWCY
-
 [back to index](#-content)
 
 <br>
@@ -54,7 +42,7 @@ Click on above image to watch the tutorial for installation and configuration or
 6. (Optional) Don't forget to add you default resume in the location you mentioned in `default_resume_path = "all resumes/default/resume.pdf"` given in `/config/questions.py`. If one is not provided, it will use your previous resume submitted in LinkedIn or (In Development) generate custom resume if OpenAI APT key is provided!
 7. Run `runAiBot.py` and see the magic happen.
 8. To run the Applied Jobs history UI, run `app.py` and open web browser on `http://localhost:5000`.
-8. If you have questions or need help setting it up or to talk in general, join the github server: https://discord.gg/fFp7uUzWCY
+
 
 [back to index](#-content)
 
@@ -298,10 +286,6 @@ See [AGPLv3 LICENSE](LICENSE) for more info.
 [back to index](#-content)
 
 <br>
-
-## 🙌 Community Support and Discussions
-- **Discord Server** : https://discord.gg/fFp7uUzWCY
-
 
 #### ℹ️ Version: 1.0.0
 

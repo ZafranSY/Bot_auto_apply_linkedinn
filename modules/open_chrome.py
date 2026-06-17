@@ -111,7 +111,7 @@ except SessionNotCreatedException as e:
     critical_error_log("Failed to create Chrome Session, retrying with guest profile", e)
     options, driver, actions, wait = createChromeSession(True)
 except Exception as e:
-    msg = 'Seems like Google Chrome is out dated. Update browser and try again! \n\n\nIf issue persists, try Safe Mode. Set, safe_mode = True in config.py \n\nPlease check GitHub discussions/support for solutions https://discord.gg/fFp7uUzWCY \n                                   OR \nReach out in discord ( https://discord.gg/fFp7uUzWCY )'
+    msg = 'Seems like Google Chrome is out dated. Update browser and try again! \n\n\nIf issue persists, try Safe Mode. Set, safe_mode = True in config.py'
     if isinstance(e,TimeoutError): msg = "Couldn't download Chrome-driver. Set stealth_mode = False in config!"
     print_lg(msg)
     critical_error_log("In Opening Chrome", e)
