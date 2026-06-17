@@ -1,8 +1,4 @@
 '''
-
-License:    GNU Affero General Public License
-            https://www.gnu.org/licenses/agpl-3.0.en.html
-
 '''
 
 # Imports
@@ -1194,7 +1190,7 @@ def main() -> None:
             "Obstacles are those frightful things you see when you take your eyes off your goal. - Henry Ford (Not a sponsor)",
             "The only limit to our realization of tomorrow will be our doubts of today. - Franklin D. Roosevelt (Not a sponsor)",
             ])
-                timeSaved = (easy_applied_count * 80) + (external_jobs_count * 20) + (skip_count * 10)
+        timeSaved = (easy_applied_count * 80) + (external_jobs_count * 20) + (skip_count * 10)
         timeSavedMsg = ""
         if timeSaved > 0:
             timeSaved += 60

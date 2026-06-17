@@ -1,8 +1,4 @@
 '''
-
-License:    GNU Affero General Public License
-            https://www.gnu.org/licenses/agpl-3.0.en.html
-
 '''
 
 from modules.helpers import get_default_temp_profile, make_directories
