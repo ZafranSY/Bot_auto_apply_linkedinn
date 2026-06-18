@@ -10,7 +10,7 @@ CORS(app)
 PATH = 'all excels/'
 @app.route('/')
 def home():
-    """Displays the home page of the application."""
+    """Displays the home page of the application"""
     return render_template('index.html')
 
 @app.route('/applied-jobs', methods=['GET'])
