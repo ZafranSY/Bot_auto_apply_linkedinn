@@ -27,21 +27,13 @@ us_citizenship = "Other"
 ## SOME ANNOYING QUESTIONS BY COMPANIES 🫠 ##
 
 # What to enter in your desired salary question (American and European), What is your expected CTC (South Asian and others)?, only enter in numbers as some companies only allow numbers,
-desired_salary = 48000          # 80000, 90000, 100000 or 120000 and so on... Do NOT use quotes
-'''
-Note: If question has the word "lakhs" in it (Example: What is your expected CTC in lakhs), 
-then it will add '.' before last 5 digits and answer. Examples: 
-* 2400000 will be answered as "24.00"
-* 850000 will be answered as "8.50"
-And if asked in months, then it will divide by 12 and answer. Examples:
-* 2400000 will be answered as "200000"
-* 850000 will be answered as "70833"
-'''
+desired_salary = 4000          # 80000, 90000, 100000 or 120000 and so on... Do NOT use quotes
+
 
 # What is your current CTC? Some companies make it compulsory to be answered in numbers...
 current_ctc = 0            # 800000, 900000, 1000000 or 1200000 and so on... Do NOT use quotes
 '''
-Note: If question has the word "lakhs" in it (Example: What is your current CTC in lakhs), 
+Note: If question has the word "RM" in it (Example: What is your current CTC in RM), 
 then it will add '.' before last 5 digits and answer. Examples: 
 * 2400000 will be answered as "24.00"
 * 850000 will be answered as "8.50"
